@@ -1,5 +1,7 @@
 # Cinophiles
 ### *"Cinophile: Someone who obsesses over films and takes there influence, actors and imagery too seriously."* - Urban Dictionary
+![](https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/fall-movies-index-1628968089.jpg)
+'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/fall-movies-index-1628968089.jpg'
 ## Objective
 Combine two online movie databases for a more comprehensive research record, embeded into a relational database that includes links for online movie poster images.
 ### Collaborators
