@@ -54,12 +54,12 @@ SQL database that combines multiple film data sources into one comprehensive lib
 ## Using this database
 We encourage any other cinophiles out there to download this database and draw your own cinematic conclusions!
 1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. API key is needed for accessing movie poster - instructions can be found here https://developers.themoviedb.org/3/getting-started/authentication
+2. API key is needed for accessing movie poster - instructions can be found here https://developers.themoviedb.org/3/getting-started/authentication.
 3. Raw Data is being kept in the Resources folder. The original datasets can be pulled fresh from the following sites:
     * https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset?select=movies_metadata.csv
     * https://www.imdb.com/interfaces/
-4. Data processing/transformation scripts are contained in ETL.ipynb
-5. SQL database must be generated on local computer using code in "schema.sql"
+4. Data processing/transformation scripts are contained in ETL.ipynb.
+5. SQL database must be generated on local computer using code in "schema.sql".
 ## Featured Notebooks/Analysis/Deliverables
 * ETL.ipynb - main script
 * TitleRatingsTSV - code for transforming TSV file - final version incorporated into ETL.ipynb
