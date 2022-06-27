@@ -1,0 +1,22 @@
+CREATE TABLE TMDB(
+	imdb_id VARCHAR PRIMARY KEY,
+	title VARCHAR,
+	genres VARCHAR,
+	original_language VARCHAR,
+	popularity VARCHAR,
+	production_countries VARCHAR,
+	release_date VARCHAR,
+	runtime INT, 
+	status VARCHAR,
+	vote_average FLOAT,
+	vote_count INT,
+	poster_link VARCHAR
+	
+);
+
+CREATE TABLE IMDB_ratings(
+	imdb_id VARCHAR PRIMARY KEY,
+	avg_rating FLOAT,
+	num_votes INT
+	
+);
