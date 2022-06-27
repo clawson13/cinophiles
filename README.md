@@ -41,7 +41,7 @@ SQL database that combines multiple film data sources into one comprehensive lib
         * Title (varchar)
         * Vote_average (int) - rating among TMDB users
         * Vote_count (int) - number of votes from TMDB users
-        * Also from TMDB, uses an API pull to generate hyperlinks that connect to each movie's movie poster, as a downloadable image file.
+        * Also from TMDB, uses an API pull to generate hyperlinks that connect to each movie's movie poster, as a downloadable image file
         * Instructions for how to access the API can be found here: https://developers.themoviedb.org/3/getting-started/authentication
 * IMBD Ratings: 
     * https://www.imdb.com/interfaces/title.ratings.tsv.gz
