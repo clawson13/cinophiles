@@ -22,8 +22,7 @@ SQL database that combines multiple film data sources into one comprehensive lib
    * https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset?select=movies_metadata.csv
    * Contains many pieces of metadata information
    * Type: csv
-   * Columns (items indicated with ~ were dropped due to incomplete data): 
-        * ~Budget (int)~ 
+   * Columns: 
         * Genres (json) - id/name of genres
         * Imdb_id (varchar(9)) 
         * Original_language (string) - 2 letter language type
@@ -36,15 +35,14 @@ SQL database that combines multiple film data sources into one comprehensive lib
         * Number of total votes
         * Previous days score
         * Production_countries (json) - 2 letter country and full name 
-        * Release_date (date) 
-        * ~Revenue (int) - in usd~
+        * Release_date (date)
         * Runtime (int) - in minutes
         * Status (string) - released only
         * Title (varchar)
         * Vote_average (int) - rating among TMDB users
         * Vote_count (int) - number of votes from TMDB users
         * Also from TMDB, uses an API pull to generate hyperlinks that connect to each movie's movie poster, as a downloadable image file.
-        *  Instructions for how to access the API can be found here: https://developers.themoviedb.org/3/getting-started/authentication
+        * Instructions for how to access the API can be found here: https://developers.themoviedb.org/3/getting-started/authentication
 * IMBD Ratings: 
     * https://www.imdb.com/interfaces/title.ratings.tsv.gz
     * Contains the IMDb rating and votes information for titles
