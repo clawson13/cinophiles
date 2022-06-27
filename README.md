@@ -2,7 +2,7 @@
 ### *"Cinophile: Someone who obsesses over films and takes there influence, actors and imagery too seriously."* - Urban Dictionary
 ![](https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/fall-movies-index-1628968089.jpg)
 ## Objective
-Combine two online movie databases for a more comprehensive research record, embeded into a relational database that includes links for online movie poster images.
+Combines two online movie databases for a more comprehensive research record. Embeds combined records into a relational database that includes links for online movie poster images.
 ### Collaborators
 * Ishan Sidhu
 * Corey Lawson-Enos
@@ -17,7 +17,7 @@ Combine two online movie databases for a more comprehensive research record, emb
 * Jupyter Notebook
 * Pandas/Python 3
 ## Project Description
-SQL databse that combines multiple film data sources into one comprehensive, referencable location; transformed from the following sources:
+SQL database that combines multiple film data sources into one comprehensive library, transformed from the following sources:
 * Kaggle - TMBD (The Movies Dataset)
    * https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset?select=movies_metadata.csv
    * Contains many pieces of metadata information
