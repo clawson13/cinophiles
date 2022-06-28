@@ -18,7 +18,7 @@ Combines two online movie databases for a more comprehensive research record. Em
 * Pandas/Python 3
 ## Project Description
 SQL database that combines multiple film data sources into one comprehensive library, transformed from the following sources:
-* Kaggle - TMBD (The Movies Dataset)
+* Kaggle - TMDB (The Movies Dataset)
    * https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset?select=movies_metadata.csv
    * Contains many pieces of metadata information
    * Type: csv
@@ -48,7 +48,7 @@ SQL database that combines multiple film data sources into one comprehensive lib
     * Contains the IMDb rating and votes information for titles
     * Type: tsv: converted to csv for easier visualization
     * Columns: 
-        * tconst (string) - alphanumeric unique identifier of the title, same thing as imbd_id in TMBD
+        * tconst (string) - alphanumeric unique identifier of the title, same thing as imbd_id in TMDB
         * averageRating (int)–weighted average of all individual user ratings (IMBD)
         * numVotes (int)- number of votes the title has received on IMBD
 ## Using this database
