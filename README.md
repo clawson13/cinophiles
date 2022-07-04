@@ -64,3 +64,5 @@ We encourage any other cinophiles out there to download this database and draw y
 * ETL.ipynb - main script
 * TitleRatingsTSV - code for transforming TSV file - final version incorporated into ETL.ipynb
 * schema.sql - code for SQL setup
+---
+
